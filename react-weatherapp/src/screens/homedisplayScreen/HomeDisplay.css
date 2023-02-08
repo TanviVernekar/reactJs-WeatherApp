@@ -1,0 +1,185 @@
+.mainContainerHome{
+    /* border: solid red; */
+    height: 100vh;
+    padding: 50px 10px 70px 10px;
+}
+.cityNameHome{
+    height: 24px;
+    width: 153px;
+    color: #FFFFFF;
+    /* font-family: Roboto; */
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+}
+.favContainerHome{
+    /* border:solid red; */
+    height: 17px;
+    width: 125px;
+    justify-content: space-between;
+    display: flex;
+    margin: 20px 0 0 3px;
+}
+.AddFavIconHome{
+    box-sizing: border-box;
+    height: 16.97px;
+    width: 18px;
+    /* border: 1.5px solid #FFFFFF; */
+}
+.addToFavTextHome{
+    height: 15px;
+    width: 94px;
+    color: #FFFFFF;
+    /* font-family: Roboto; */
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 15px;
+    align-self: center;
+}
+.middleContainerHome{
+    width:132px;
+    height: 220px;
+  
+    margin: 45px auto;
+}
+
+
+.sunnydivhome{
+
+
+   align-items: center;
+   justify-content: center;
+}
+
+.mostly-sunny {
+    height: 84px;
+    width: 80px;
+    /* border: solid pink; */
+    margin-left: 23px;
+  }
+
+  .innerContainerHome{
+    display: flex;
+    /* border: solid blue; */
+    /* height: 0%; */
+    margin: 20px auto 10px auto;
+   justify-content: space-between;
+  }
+  .temperature{
+    height: 75px;
+    /* width: 73px; */
+    color: #FFFFFF;
+  
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: 0; 
+   line-height: 75px;
+    /* border: solid pink; */
+
+  }
+  .conversionContainer{
+    height: 28px;
+  width: 55px;
+  border: solid white;
+  border-radius: 2px;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    margin: 13px 0 0 5px;
+
+  }
+
+  .unitC{
+    height: 30px;
+    width: 28px;
+    /* background-color: #FFFFFF; */
+    /* border:solid pink; */
+    border-radius: 2px;
+    border-width: 1px;
+    color: #E32843;
+    align-self: center;
+    padding: 5px;
+    margin-top: 20px;
+    padding-top: 10px;
+   
+  }
+
+  .unitF{
+    height: 30px;
+    width: 28px;
+    border-color:solid #FFFFFF;
+    border-radius: 2px;
+    border-width: 1px;
+    color: #FFFFFF;
+    padding: 5px;
+    /* border:solid pink; */
+    /* align-self: center; */
+    margin-top: 20px;
+  }
+  .mostly-sunnyText {
+    height: 25px;
+    width: 132px;
+    color: #FFFFFF;
+    /* font-family: Roboto; */
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 25px;
+    text-align: center;
+ 
+  }
+  .line-copy {
+    box-sizing: border-box;
+    height: 1px;
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    opacity: 0.3;
+    margin: 190px auto 0 auto;
+
+  }
+  .bottomContainerHome{
+    /* border: solid pink; */
+    /* height:23%; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+    margin-top: 30px;
+   
+  }
+  .innerBottomHome{
+    display: flex;
+    justify-content: center;
+  }
+  .icon-temperature-info {
+    height: 30px;
+    width: 34px;
+  }
+  
+  .despBottom{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .content{
+    height: 18px;
+  width: 66px;
+  color: #FFFFFF;
+  /* font-family: Roboto; */
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-bottom: 5px;
+  }
+  .contentDesp{
+    height: 25px;
+    width: 69px;
+    color: #FFFFFF;
+    /* font-family: Roboto; */
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
