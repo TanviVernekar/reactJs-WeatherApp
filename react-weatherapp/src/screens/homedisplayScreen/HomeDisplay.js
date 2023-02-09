@@ -11,7 +11,9 @@ const HomeDisplay = () => {
   };
   return (
     <div className="mainContainerHome">
+      <div className="cityNameDiv">
       <span className="cityNameHome">Udupi, Karnataka</span>
+      </div>
       <div className="favContainerHome">
         <img
           src={require("../../assests/images/02_Home_Favourite/favouriteIcon.png")}
@@ -53,7 +55,7 @@ const HomeDisplay = () => {
                 </div>
               </>
             )}
-            {/* <div><span>°C</span></div> */}
+          
           </div>
         </div>
         <span className="mostly-sunnyText ">Mostly Sunny</span>
@@ -61,6 +63,7 @@ const HomeDisplay = () => {
       <div className="line-copy"/>
 
       <div className="bottomContainerHome">
+    
 
         <div className="innerBottomHome">
           <img src={require('../../assests/images/01_Home/background/icon_temperature_info.png')} className="icon-temperature-info"></img>
@@ -71,7 +74,7 @@ const HomeDisplay = () => {
         </div>
 
         <div className="innerBottomHome">
-          <img src={require('../../assests/images/01_Home/background/icon_rain_big.png')} className="icon-temperature-info"></img>
+          <img src={require('../../assests/images/01_Home/background/icon_rain_big.png')} className="icon-precepitation-info"></img>
           <div className="despBottom">
             <span className="content">Precipitation</span>
             <span className="contentDesp">0%</span>
@@ -79,7 +82,7 @@ const HomeDisplay = () => {
         </div>
 
         <div className="innerBottomHome">
-          <img src={require('../../assests/images/01_Home/background/icon_humidity_info.png')} className="icon-temperature-info"></img>
+          <img src={require('../../assests/images/01_Home/background/icon_humidity_info.png')} className="icon-humidity-info"></img>
           <div className="despBottom">
             <span className="content">Humidity</span>
             <span className="contentDesp">47%</span>
@@ -87,7 +90,7 @@ const HomeDisplay = () => {
         </div>
 
         <div className="innerBottomHome">
-          <img src={require('../../assests/images/01_Home/background/icon_wind_info.png')} className="icon-temperature-info"></img>
+          <img src={require('../../assests/images/01_Home/background/icon_wind_info.png')} className="icon-wind-info"></img>
           <div className="despBottom">
             <span className="content">Wind</span>
             <span className="contentDesp">4 mph</span>
@@ -95,12 +98,13 @@ const HomeDisplay = () => {
         </div>
 
         <div className="innerBottomHome">
-          <img src={require('../../assests/images/01_Home/background/icon_visibility_info.png')} className="icon-temperature-info"></img>
+          <img src={require('../../assests/images/01_Home/background/icon_visibility_info.png')} className="icon-visibility-info"></img>
           <div className="despBottom">
             <span className="content">Visibility</span>
             <span className="contentDesp">12 mph</span>
           </div>
         </div>
+     
       </div>
 
     </div>

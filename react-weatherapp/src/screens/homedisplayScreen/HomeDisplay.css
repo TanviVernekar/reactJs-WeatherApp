@@ -1,7 +1,10 @@
 .mainContainerHome{
     /* border: solid red; */
-    height: 100vh;
+    /* height: 100vh; */
     padding: 50px 10px 70px 10px;
+}
+.cityNameDiv{
+  margin: 1px;
 }
 .cityNameHome{
     height: 24px;
@@ -43,7 +46,7 @@
     width:132px;
     height: 220px;
   
-    margin: 45px auto;
+    margin: 80px auto 0 auto;
 }
 
 
@@ -136,24 +139,45 @@
     width: 100%;
     border: 1px solid #FFFFFF;
     opacity: 0.3;
-    margin: 190px auto 0 auto;
+    margin: 15% auto 0 auto;
 
   }
   .bottomContainerHome{
     /* border: solid pink; */
-    /* height:23%; */
+    height:23%;
     display: flex;
-    justify-content: space-between;
-    padding: 0 50px 0 50px;
+    justify-content: space-evenly;
+    overflow: scroll;
     margin-top: 30px;
+    /* border: solid red; */
    
   }
+  .bottomContainerHome::-webkit-scrollbar{
+    display: none;
+  }
   .innerBottomHome{
+   
     display: flex;
     justify-content: center;
   }
   .icon-temperature-info {
-    height: 30px;
+    height: 32px;
+    width: 16px;
+  }
+  .icon-precepitation-info {
+    height: 29px;
+    width: 30px;
+  }
+  .icon-humidity-info {
+    height: 25px;
+    width: 19px;
+  }
+  .icon-wind-info {
+    height: 22px;
+    width: 32px;
+  }
+  .icon-visibility-info {
+    height: 20px;
     width: 34px;
   }
   
@@ -165,7 +189,7 @@
 
   .content{
     height: 18px;
-  width: 66px;
+  /* width: 66px; */
   color: #FFFFFF;
   /* font-family: Roboto; */
   font-size: 15px;
@@ -175,11 +199,69 @@
   }
   .contentDesp{
     height: 25px;
-    width: 69px;
+    /* width: 69px; */
     color: #FFFFFF;
     /* font-family: Roboto; */
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 25px;
+  }
+
+
+
+
+  @media screen and (max-width : 520px) {
+   
+  .favContainerHome{
+    /* border:solid red; */
+    height: 17px;
+    width: 125px;
+    justify-content: space-between;
+    display: flex;
+    margin: 20px auto;
+    
+}
+.cityNameDiv{
+align-self: center;
+
+text-align: center;
+
+}
+    .cityNameHome{
+      height: 24px;
+      width: 153px;
+      color: #FFFFFF;
+      /* font-family: Roboto; */
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0;
+      line-height: 24px;
+      text-align: center;
+      /* align-self: center; */
+     margin: 0 auto;
+    
+    }
+    .line-copy {
+      box-sizing: border-box;
+      height: 1px;
+      width: 120%;
+      border: 1px solid #FFFFFF;
+      opacity: 0.3;
+      margin: 45% auto 0 -30px;
+  
+    }
+    .bottomContainerHome{
+      /* border: solid pink; */
+      height:23%;
+      display: flex;
+      justify-content: space-evenly;
+      overflow: scroll;
+      margin-top: 30px;
+      /* border: solid red; */
+     margin-left: 5px;
+    }
+    .bottomContainerHome::-webkit-scrollbar{
+      display: none;
+    }
   }

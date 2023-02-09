@@ -8,6 +8,9 @@ const HomeScreen = () => {
     <div className="main-container">
       <div className="container">
         <div className="header-container">
+          <div className="hambergerMob" >
+            <img src={require('../../assests/images/01_Home/icon_menu_white.png')}></img>
+          </div>
           <div>
             <img
               src={require("../../assests/images/01_Home/logo_web.png")}
@@ -24,6 +27,14 @@ const HomeScreen = () => {
               ></img>
             </div>
           </div>
+
+          <div className="searchIconMob">
+          <img
+                src={require("../../assests/images/01_Home/Group 2/search_white.png")}
+                className="search-icon"
+                alt=""
+              ></img>
+          </div>
         </div>
 
         <div className="middle-container">
@@ -38,9 +49,8 @@ const HomeScreen = () => {
                       borderBottom: isActive ? "2px solid #FFA222" : "none",
                       color: isActive ? "#FFA222" : "white",
                       fontSize: "1.3rem",
-                      fontFamily: "Roboto",
+                      // fontFamily: "Roboto", 
                       textDecoration: "none",
-                      
                       
                     };
                   }}
@@ -55,7 +65,7 @@ const HomeScreen = () => {
                       borderBottom: isActive ? "2px solid #FFA222" : "none",
                       color: isActive ? "#FFA222" : "white",
                       fontSize: "1.3rem",
-                      fontFamily: "Roboto",
+                      // fontFamily: "Roboto",
                       textDecoration: "none",
                     };
                   }}
@@ -70,7 +80,7 @@ const HomeScreen = () => {
                       borderBottom: isActive ? "2px solid #FFA222" : "none",
                       color: isActive ? "#FFA222" : "white",
                       fontSize: "1.3rem",
-                      fontFamily: "Roboto",
+                      // fontFamily: "Roboto",
                       textDecoration: "none",
                     };
                   }}
